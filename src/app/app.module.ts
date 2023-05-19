@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { GaleriaComponent } from './galeria/galeria.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { GaleriaComponent } from './galeria/galeria.component';
     AppRoutingModule,
     BrowserAnimationsModule,
     CarouselModule.forRoot(),
+    ModalModule.forRoot(),
 
   ],
   providers: [],
